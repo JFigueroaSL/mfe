@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import Button from '@material-ui/core/Button';
 import Card from '@material-ui/core/Card';
 import CardActions from '@material-ui/core/CardActions';
@@ -114,7 +114,7 @@ export default function Pricing() {
   const classes = useStyles();
 
   return (
-    <React.Fragment>
+    <Fragment>
       {/* Hero unit */}
       <Container maxWidth="sm" component="main" className={classes.heroContent}>
         <Typography component="h1" variant="h2" align="center" color="textPrimary" gutterBottom>
@@ -192,6 +192,6 @@ export default function Pricing() {
         </Box>
       </Container>
       {/* End footer */}
-    </React.Fragment>
+    </Fragment>
   );
 }
