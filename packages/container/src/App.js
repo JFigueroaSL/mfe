@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
 
-import Header from './components/Header';
-import MarketingApp from './components/MarketingApp';
+import Header from './Components/Header';
+import MarketingApp from './Components/MarketingApp';
 
 export default () => {
   return (
