@@ -114,7 +114,7 @@ export default function Album() {
                     <Typography gutterBottom variant="h5" component="h2">
                       Heading
                     </Typography>
-                    <Typography>This is a media card. You can use this section to describe the content.</Typography>
+                    <Typography>This is a media card. You can use this section to describe the content!</Typography>
                   </CardContent>
                   <CardActions>
                     <Button size="small" color="primary">
